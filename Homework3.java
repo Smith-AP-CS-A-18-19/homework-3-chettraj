@@ -18,11 +18,15 @@ public class Homework3 {
 	 */
 	public void grade() {
 
+
 	}
 
 	/* Calculate and return the sum of value1, value2, and value3
 	 */
 	public int sum() {
+		int wow = value1 + value2 + value3;
+		return wow;
+
 
 	}
 
@@ -30,6 +34,9 @@ public class Homework3 {
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
+		int ave1 = value1 + value2 + value3;
+		double aveF = ave1/2;
+		return aveF;
 
 	}
 
@@ -37,13 +44,19 @@ public class Homework3 {
 	 * value 1, value2, and value3
 	 */
 	 public int productSumDifference() {
-
+		int yus = (value1*value2*value3) - (value1+value2+value3);
+		return yus;
 	 }
 
 	 /* Calculate and return the sum of the squares of value1, value2, and
 	  * value3
 	  */
 	  public int sumSquares() {
+			int v11 = value1 * value1;
+			int v22 = value2 * value2;
+			int v33 = value3 * value3;
+			int v112233 = v11 + v22 + v33;
+			return v112233;
 
 	  }
 
