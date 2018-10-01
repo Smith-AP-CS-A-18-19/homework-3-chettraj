@@ -17,6 +17,7 @@ public class Homework3 {
 	 * class (e.g. Math.random())
 	 */
 	public void grade() {
+		Homework3.grade(this);
 
 
 	}
@@ -34,8 +35,8 @@ public class Homework3 {
 	 * Hint: the average of numbers can be fractional
 	 */
 	public double average() {
-		int ave1 = value1 + value2 + value3;
-		double aveF = ave1/2;
+		double ave1 = value1 + value2 + value3;
+		double aveF = ave1/3;
 		return aveF;
 
 	}
